@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Змейка</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/site.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center flex-column"> 
+        <div class="game m-auto p-2"></div>
+        <div class="game__btns m-auto d-flex align-content-center">
+            <button class="game__start btn btn-primary m-1" onclick="startGame()">Старт</button>
+            <button class="game__restart btn btn-primary m-1" onclick="restartGame()">Перезапустить</button>
+            <i class="bi bi-arrow-up" style="font-size: 2rem"></i>            
+        </div>
+
+    </div>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/site.js"></script>
+</body>
+</html>

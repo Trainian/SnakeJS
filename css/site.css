@@ -1,0 +1,24 @@
+table{
+    border: 1px solid black;
+}
+
+tr,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.snakeHead{
+    background-color: gray;
+}
+
+.snakeBody{
+    background-color: black;
+}
+
+.food{
+    background-color: green;
+}
+
+.bi{
+    margin-left: 5rem;
+}
